@@ -109,10 +109,10 @@ class Add extends React.Component {
               onChange={e => this.setState({ Category: e.target.value })}
             >
               <option value={Category} />
-              <option value="Saudi">Saudi</option>
-              <option value="Lebanon">Lebanon</option>
-              <option value="Emirates">Emirates</option>
-              <option value="Egypt">Egypt</option>
+              <option value="Tech">Tech</option>
+              <option value="Clothes">Clothes</option>
+              <option value="Food">Food</option>
+              <option value="Vichles">Vichles</option>
             </select>
           </div>
           <div className="form-group">
