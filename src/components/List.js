@@ -4,8 +4,6 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import GetForm from "../api/GetForm";
 import Modify from "./Modify";
 
-const url = "http://localhost:51391/api/product";
-
 class List extends React.Component {
   render() {
     return (
